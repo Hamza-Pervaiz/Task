@@ -1,0 +1,36 @@
+name: alpha
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  font_awesome_flutter: 
+  fl_chart: ^0.69.0
+  table_calendar:
+  image_picker:
+  file_picker:
+  permission_handler:
+  emoji_picker_flutter:
+  shared_preferences:
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/avatar_dashboard.jpg
+    - assets/images/messenger2.png
+    - assets/images/icon.png
+    - assets/images/avatar1.jpg
+    - assets/images/avatar2.png
+    - assets/images/avatar3.jpg
+    - assets/images/avatar4.jpg
+    - assets/images/circular_bar_avatar.jpg
